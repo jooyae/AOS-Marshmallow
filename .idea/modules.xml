@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/JuyaeMarshmallow.iml" filepath="$PROJECT_DIR$/.idea/modules/JuyaeMarshmallow.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JuyaeMarshmallow.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JuyaeMarshmallow.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/validatetor/JuyaeMarshmallow.validatetor.iml" filepath="$PROJECT_DIR$/.idea/modules/validatetor/JuyaeMarshmallow.validatetor.iml" />
     </modules>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package org.journey.juyaemarshmallow
+package org.journey.juyaemarshmallow.base
 
 import android.os.Bundle
 import android.view.LayoutInflater
