@@ -19,7 +19,7 @@ class OnboardingFragment : BaseFragment<FragmentOnboardingBinding>(), CoroutineS
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         launch{
-            delay(2000)
+            delay(3000)
             withContext(Dispatchers.Main){
                 Navigation.findNavController(binding.root)
                     .navigate(R.id.action_onboardingFragment_to_loginFragment)
