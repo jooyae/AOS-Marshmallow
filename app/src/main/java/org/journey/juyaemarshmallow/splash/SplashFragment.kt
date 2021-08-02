@@ -26,7 +26,7 @@ class SplashFragment : BaseFragment<FragmentSplashBinding>(), CoroutineScope {
                     .navigate(R.id.action_splashFragment_to_loginFragment)
             }
         }
-        
+
     }
     override fun getFragmentBinding(
         inflater: LayoutInflater,

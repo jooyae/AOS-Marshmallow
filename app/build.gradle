@@ -62,6 +62,9 @@ dependencies {
     implementation "com.google.dagger:hilt-android:2.35.1"
     kapt "com.google.dagger:hilt-android-compiler:2.35.1"
 
+    //Dots Indicator
+    implementation 'com.tbuonomo:dotsindicator:4.2'
+
 //    implementation "com.google.android.material:material:${rootProject.ext.libraryVersion.androidXCore}"
 //
 //    implementation "org.koin:koin-android:${rootProject.ext.libraryVersion.koin}" // Koin for Android
