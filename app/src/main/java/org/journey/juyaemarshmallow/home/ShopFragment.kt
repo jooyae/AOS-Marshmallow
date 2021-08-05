@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import org.journey.juyaemarshmallow.base.BaseFragment
+import org.journey.juyaemarshmallow.databinding.FragmentLoginBinding
 import org.journey.juyaemarshmallow.databinding.FragmentShopBinding
 
 class ShopFragment : BaseFragment<FragmentShopBinding>() {
@@ -13,6 +14,10 @@ class ShopFragment : BaseFragment<FragmentShopBinding>() {
         inflater: LayoutInflater,
         container: ViewGroup?
     ): FragmentShopBinding {
-        TODO("Not yet implemented")
+        return FragmentShopBinding.inflate(inflater, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
     }
 }

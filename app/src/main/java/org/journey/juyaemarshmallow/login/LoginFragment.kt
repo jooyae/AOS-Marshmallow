@@ -4,6 +4,8 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.NavController
+import androidx.navigation.fragment.findNavController
 import androidx.viewpager2.widget.ViewPager2
 import org.journey.juyaemarshmallow.R
 import org.journey.juyaemarshmallow.base.BaseFragment
@@ -22,6 +24,7 @@ class LoginFragment : BaseFragment<FragmentLoginBinding>() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         loadIndicator()
+        clickListener()
     }
 
 
@@ -34,6 +37,12 @@ class LoginFragment : BaseFragment<FragmentLoginBinding>() {
         viewPager.adapter = ViewPagerAdapter(imageList)
         binding.indicatorLogin.setViewPager2(viewPager)
         viewPager.offscreenPageLimit = 2
+    }
+
+    private fun clickListener(){
+        binding.buttonLoginEmail.setOnClickListener {
+            findNavController().navigate(R.id.action_loginFragment_to_homeActivity)
+        }
     }
 
 
