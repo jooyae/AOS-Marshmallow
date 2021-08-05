@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import org.journey.juyaemarshmallow.base.BaseFragment
+import org.journey.juyaemarshmallow.databinding.FragmentLoginBinding
 import org.journey.juyaemarshmallow.databinding.FragmentSearchBinding
 
 class SearchFragment : BaseFragment<FragmentSearchBinding>() {
@@ -16,6 +17,6 @@ class SearchFragment : BaseFragment<FragmentSearchBinding>() {
         inflater: LayoutInflater,
         container: ViewGroup?
     ): FragmentSearchBinding {
-        TODO("Not yet implemented")
+        return FragmentSearchBinding.inflate(inflater, container, false)
     }
 }
