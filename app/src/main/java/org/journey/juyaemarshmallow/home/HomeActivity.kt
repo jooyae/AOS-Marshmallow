@@ -4,10 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.widget.ViewPager2
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import org.journey.juyaemarshmallow.R
 import org.journey.juyaemarshmallow.databinding.ActivityHomeBinding
-import org.journey.juyaemarshmallow.mypage.MypageFragment
+import org.journey.juyaemarshmallow.home.mypage.MypageFragment
 
 class HomeActivity : AppCompatActivity() {
     lateinit var binding: ActivityHomeBinding
