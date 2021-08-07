@@ -3,4 +3,5 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="signup_email"> <u>이메일로 가입하기</u> </string>
+    <string name="home_search_hint">뉴오리진 순초약방 올인원 크림</string>
 </resources>
