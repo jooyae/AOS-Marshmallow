@@ -100,4 +100,10 @@ dependencies {
     testImplementation 'org.mockito:mockito-inline:3.2.4'
     testImplementation 'android.arch.core:core-testing:1.1.1'
 
+    //Paging
+    implementation 'android.arch.paging:runtime:1.0.1'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.6.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
+
 }
