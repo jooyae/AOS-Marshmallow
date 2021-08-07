@@ -1,4 +1,4 @@
-package org.journey.juyaemarshmallow
+package org.journey.juyaemarshmallow.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
