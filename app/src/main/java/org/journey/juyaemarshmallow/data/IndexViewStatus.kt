@@ -1,4 +1,4 @@
-package org.journey.juyaemarshmallow
+package org.journey.juyaemarshmallow.data
 
 object IndexViewStatus {
     private val allSkinTypes = arrayOf("oily", "dry", "sensitive")
